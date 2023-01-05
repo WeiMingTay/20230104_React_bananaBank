@@ -1,0 +1,36 @@
+.navigation {
+	$secondaryColor: #fec61b;
+	$accentColor: #fbdf8f;
+
+	background-color: rgba($accentColor, 0.2);
+	height: 10%;
+	ul {
+		display: flex;
+		justify-content: space-evenly;
+		list-style-type: none;
+		align-items: center;
+		height: 100%;
+
+		li {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			color: $secondaryColor;
+
+			i {
+				font-size: 2rem;
+			}
+			a {
+				text-decoration: none;
+				color: inherit;
+				font-weight: 600;
+			}
+			&:hover i,
+			&:focus i {
+				scale: 1.25;
+			}
+
+		}
+	}
+}

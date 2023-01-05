@@ -1,0 +1,31 @@
+.header {
+  background-color: #fff;
+}
+.header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header div img {
+  height: 4rem;
+}
+.header div h1 {
+  color: #fec61b;
+  font-size: 2rem;
+}
+.header article {
+  padding: 0.5rem 1rem;
+  /* &:first-of-type {
+  } */
+}
+.header article:last-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+.header article:last-of-type div {
+  display: inline;
+  padding: 0.5rem;
+}
+.header article:last-of-type div:last-of-type {
+  border: 2px solid #fec61b;
+}/*# sourceMappingURL=Header.css.map */

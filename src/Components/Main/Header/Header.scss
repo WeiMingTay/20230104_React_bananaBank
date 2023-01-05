@@ -1,0 +1,36 @@
+.header {
+	$primaryColor: #fff;
+	$secondaryColor: #fec61b;
+	background-color: $primaryColor;
+
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			height: 4rem;
+		}
+		h1 {
+			color: $secondaryColor;
+			font-size: 2rem;
+		}
+	}
+	article {
+        padding: .5rem 1rem;
+		/* &:first-of-type {
+	} */
+		&:last-of-type {
+			display: flex;
+			justify-content: space-between;
+
+			div {
+				display: inline;
+                padding: .5rem;
+
+				&:last-of-type {
+					border: 2px solid $secondaryColor;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+.navigation {
+  background-color: rgba(251, 223, 143, 0.2);
+  height: 10%;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+  height: 100%;
+}
+.navigation ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #fec61b;
+}
+.navigation ul li i {
+  font-size: 2rem;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+.navigation ul li:hover i, .navigation ul li:focus i {
+  scale: 1.25;
+}/*# sourceMappingURL=Navigation.css.map */
