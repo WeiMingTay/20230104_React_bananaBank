@@ -21,6 +21,7 @@
 .header article:last-of-type {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .header article:last-of-type div {
   display: inline;
